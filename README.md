@@ -116,14 +116,8 @@ parameter ADDR\_WIDTH = 4;  // Address width (depth = 2^ADDR\_WIDTH)
 **Simulation Waveform**
 
 After running the simulation, you can view the waveform for signals like clk, rst, wr\_en, rd\_en, din, dout, full, and empty. This helps verify the FIFO's functionality.
+![waveform2](https://github.com/user-attachments/assets/89445150-60d5-4fa7-9021-4538a5132797)
 
-**Exporting the Waveform**
-
-1. **Adjust the View**: Zoom and pan to the desired section of the waveform.
-1. **Export the Image**:
-   1. In ModelSim: Go to File > Export > Image.
-   1. In Vivado: Right-click in the waveform window and select Export.
-   1. In Quartus: Use the screenshot tool or external tools if necessary.
 
 **Contributing**
 
